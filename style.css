@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 20px;
+    background-color: #444444;
+    color: #FFFFFF;
+    border: 5px solid #777777;
+    padding: 40px;
+    font-family: serif;
+}
+
+a {
+    color: #65CD9A;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+h2, h3, a {
+    font-family: sans-serif;
+}
+
+.separator-line {
+    color: #777777;
+}
+
+header {
+    text-align: center;
+    padding: 10px 0 20px 0;
+    border-bottom: 1px solid #777777;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 35px;
+    font-family: 'Playfair Display', serif;
+    padding-bottom: 15px;
+}
+
+header ul {
+    display: flex;
+    padding: 0;
+    justify-content: center;
+}
+
+header ul li {
+    list-style: none;
+    padding: 3px;
+}
+
+main {
+    border-bottom: 1px solid #777777;
+    padding: 10px 0 20px 0;
+    font-size: 18px;
+}
+
+main img {
+    float: right;
+    margin-left: 15px;
+    padding: 5px;
+    border: 1px solid #777777;
+}
+
+footer ul {
+    display: flex;
+    padding: 0;
+    margin-bottom: 0;
+    justify-content: center;
+}
+
+footer ul li {
+    list-style: none;
+    padding: 10px 3px 0 3px;
+}
+
+/* ------- RESUME ------- */
+.resume li {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.company {
+    font-weight: 400;
+}
+
+.time {
+    font-size: 12px;
+    color: #BBBBBB;
+}
+
+.edu-time {
+    font-weight: 400;
+}
+
+main p:first-of-type {
+    padding-bottom: 20px;
+}
+
+main .relevant-experience p {
+    padding-bottom: 20px;
+    color: #BBBBBB;
+}
+
+main h3 {
+    font-size: 15px;
+}
+
+.relevant-experience ul {
+    margin-bottom: 0;
+}
+
+.relevant-experience p {
+    margin: 0;
+    padding-left: 40px
+}
+
+
+
